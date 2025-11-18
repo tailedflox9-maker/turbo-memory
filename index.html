@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jawala Analytics Dashboard</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3ctext y='.9em' font-size='90'%3e📊%3c/text%3e%3c/svg%3e" />
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts for MUI -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    
+    <!-- Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+      }
+      /* Custom scrollbar for a better dark mode aesthetic */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #1f2937; /* bg-background-paper */
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #4b5563; /* gray-600 */
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #6b7280; /* gray-500 */
+      }
+    </style>
+
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.2.0",
+    "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+    "@mui/material/": "https://esm.sh/@mui/material@5.15.20/",
+    "@emotion/react": "https://esm.sh/@emotion/react@11.11.4",
+    "@emotion/styled": "https://esm.sh/@emotion/styled@11.11.5",
+    "recharts": "https://esm.sh/recharts@2.12.7",
+    "recharts/": "https://esm.sh/recharts@2.12.7/",
+    "@supabase/supabase-js": "https://esm.sh/@supabase/supabase-js@2.43.4",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@mui/material": "https://aistudiocdn.com/@mui/material@^7.3.5",
+    "@mui/icons-material": "https://aistudiocdn.com/@mui/icons-material@^7.3.5"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-gray-900">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>

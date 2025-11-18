@@ -1,0 +1,5 @@
+{
+  "name": "Jawala Analytics Dashboard",
+  "description": "An analytics dashboard to visualize user engagement, popular businesses, and visit trends for the Jawala Business Directory. Built with React, MUI, and Tailwind CSS.",
+  "requestFramePermissions": []
+}
